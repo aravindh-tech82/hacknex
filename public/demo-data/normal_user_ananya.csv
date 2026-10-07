@@ -1,0 +1,7 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E0001,2026-10-07 09:02:15,LOGIN,USR001,DEV002,10.10.20.12,Okta SSO,,,low,"Standard user login during normal office hours"
+E0002,2026-10-07 09:03:00,MFA_SUCCESS,USR001,DEV002,10.10.20.12,Okta SSO,,,low,"MFA push notification approved on primary mobile device"
+E0003,2026-10-07 09:15:30,SERVER_ACCESS,USR001,DEV002,10.10.20.12,Salesforce CRM,SRV001,,low,"Standard CRM access for pipeline review"
+E0004,2026-10-07 10:30:00,API_ACCESS,USR001,DEV002,10.10.20.12,Slack Enterprise,,,low,"Team messaging communication active"
+E0005,2026-10-07 12:45:00,FILE_ACCESS,USR001,DEV002,10.10.20.12,Google Workspace,,,low,"Sales presentation deck edited"
+E0006,2026-10-07 17:30:00,LOGOUT,USR001,DEV002,10.10.20.12,Okta SSO,,,low,"Normal employee logout at end of shift"

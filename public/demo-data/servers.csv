@@ -1,0 +1,21 @@
+server_id,server_name,server_type,criticality,location
+SRV012,Finance-Database,Database,critical,Data Center A
+SRV003,Auth-Server-03,Identity,critical,Data Center A
+SRV008,App-Server-08,Application,high,Data Center B
+SRV014,Core-Vault-14,Vault,critical,Data Center A
+SRV001,Auth-Server-01,Identity,critical,Data Center A
+SRV002,App-Server-02,Application,medium,Data Center B
+SRV004,File-Repository-04,File Storage,high,Data Center B
+SRV005,Mail-Exchange-05,Email,medium,Data Center B
+SRV006,Web-Frontend-06,Web,medium,Cloud Region East
+SRV007,API-Gateway-07,API Gateway,high,Cloud Region East
+SRV009,Analytics-Cluster-09,BigData,medium,Cloud Region West
+SRV010,Build-Jenkins-10,CI/CD,medium,Data Center B
+SRV011,Customer-DB-11,Database,critical,Data Center A
+SRV013,ERP-Primary-13,ERP,critical,Data Center A
+SRV015,Backup-Storage-15,Backup,high,Offsite Vault
+SRV016,Monitoring-Prometheus-16,Telemetry,low,Data Center B
+SRV017,Logs-Elastic-17,SIEM Storage,high,Data Center A
+SRV018,K8s-Master-18,Container Orchestrator,critical,Cloud Region East
+SRV019,DNS-Internal-19,DNS,high,Data Center A
+SRV020,NTP-Time-20,Infrastructure,low,Data Center B

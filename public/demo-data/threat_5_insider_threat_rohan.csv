@@ -1,0 +1,6 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E5001,2026-10-07 23:45:00,LOGIN,USR105,DEV006,10.10.20.30,Okta SSO,,,low,"Off-hours authentication by Account Executive Rohan Mehta"
+E5002,2026-10-07 23:48:15,SERVER_ACCESS,USR105,DEV006,10.10.20.30,SSH Bastion,SRV011,,high,"Unusual access to Customer-DB-11 SRV011 by Sales personnel"
+E5003,2026-10-07 23:51:00,COMMAND_EXECUTION,USR105,DEV006,10.10.20.30,CrowdStrike EDR,SRV011,,high,"Database dump query executed: SELECT * FROM enterprise_client_leads INTO OUTFILE"
+E5004,2026-10-07 23:55:20,FILE_ACCESS,USR105,DEV006,10.10.20.30,DLP Sentinel,SRV011,,critical,"Mass export: 25000 customer contact and contract records downloaded"
+E5005,2026-10-07 23:58:00,NETWORK_CONNECTION,USR105,DEV006,10.10.20.30,Palo Alto Firewall,SRV011,198.51.100.44,critical,"Personal cloud storage sync upload initiated to external IP"

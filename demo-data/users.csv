@@ -1,0 +1,50 @@
+user_id,name,department,role,normal_device_id,normal_ip,normal_login_hour,account_status,sensitivity_level
+USR001,Ananya Roy,Engineering,Senior Developer,DEV002,10.10.20.12,9,active,medium
+USR101,Rahul Sharma,Finance,Senior Analyst,DEV001,10.10.20.15,9,active,high
+USR102,Amit Kulkarni,Finance,Finance Manager,DEV003,10.10.20.18,9,active,high
+USR103,Neha Gupta,HR,HR Director,DEV004,10.10.20.22,10,active,high
+USR104,Siddharth Rao,IT,Systems Admin,DEV005,10.10.20.25,8,active,critical
+USR205,Priya Verma,Operations,Database Administrator,DEV020,172.16.4.25,9,active,critical
+USR310,Vikram Patel,Engineering,Lead Architect,DEV031,10.20.4.12,9,active,high
+USR105,Rohan Mehta,Sales,Account Executive,DEV006,10.10.20.30,9,active,low
+USR106,Kavya Iyer,Security,SOC Lead,DEV007,10.10.20.35,8,active,critical
+USR107,Rajesh Nair,Management,VP Operations,DEV008,10.10.20.40,9,active,high
+USR108,Deepak Kumar,Engineering,DevOps Engineer,DEV009,10.10.20.45,9,active,high
+USR109,Pooja Bhat,HR,Recruiter,DEV010,10.10.20.50,10,active,low
+USR110,Suresh Joshi,Finance,Accountant,DEV011,10.10.20.55,9,active,medium
+USR111,Meera Nambiar,Sales,Sales Manager,DEV012,10.10.20.60,9,active,low
+USR112,Tarun Saxena,IT,Network Specialist,DEV013,10.10.20.65,8,active,high
+USR113,Divya Menon,Engineering,QA Lead,DEV014,10.10.20.70,9,active,low
+USR114,Karan Malhotra,Operations,Logistics Coordinator,DEV015,10.10.20.75,9,active,low
+USR115,Shweta Pillai,Security,Security Analyst,DEV016,10.10.20.80,8,active,critical
+USR116,Manish Chawla,Management,Chief Product Officer,DEV017,10.10.20.85,9,active,high
+USR117,Simran Kapoor,HR,HR Specialist,DEV018,10.10.20.90,10,active,low
+USR118,Gaurav Bansal,Engineering,Backend Developer,DEV019,10.10.20.95,9,active,medium
+USR119,Aditi Deshmukh,Finance,Treasury Analyst,DEV021,10.10.21.10,9,active,high
+USR120,Varun Reddy,IT,Helpdesk Lead,DEV022,10.10.21.15,8,active,medium
+USR121,Nisha Agarwal,Sales,Enterprise Rep,DEV023,10.10.21.20,9,active,low
+USR122,Alok Pandey,Operations,Supply Manager,DEV024,10.10.21.25,9,active,low
+USR123,Swati Sen,Engineering,Frontend Engineer,DEV025,10.10.21.30,9,active,medium
+USR124,Nitin Choudhury,Security,Compliance Officer,DEV026,10.10.21.35,9,active,high
+USR125,Ritu Shrivastav,HR,Payroll Specialist,DEV027,10.10.21.40,9,active,high
+USR126,Harish Hegde,IT,Infrastructure Lead,DEV028,10.10.21.45,8,active,critical
+USR127,Preeti Chatterji,Management,General Counsel,DEV029,10.10.21.50,9,active,critical
+USR128,Abhishek Tiwari,Sales,Solutions Architect,DEV030,10.10.21.55,9,active,medium
+USR129,Jyoti Mahajan,Engineering,Data Engineer,DEV032,10.10.21.60,9,active,high
+USR130,Kiran Kulkarni,Operations,Site Lead,DEV033,10.10.21.65,9,active,low
+USR131,Ashish Bajaj,Finance,Financial Controller,DEV034,10.10.21.70,9,active,high
+USR132,Sunita Dutta,HR,Talent Manager,DEV035,10.10.21.75,10,active,low
+USR133,Prashant Solomon,IT,Cloud Admin,DEV036,10.10.21.80,8,active,critical
+USR134,Bhavna Fernandez,Security,Incident Handler,DEV037,10.10.21.85,8,active,critical
+USR135,Sameer Dsouza,Sales,Regional Director,DEV038,10.10.21.90,9,active,medium
+USR136,Tanvi Kaushik,Engineering,ML Engineer,DEV039,10.10.21.95,9,active,medium
+USR137,Yashwant Somani,Operations,Fleet Manager,DEV040,10.10.22.10,9,active,low
+USR138,Leela Sundaram,Finance,Tax Manager,DEV041,10.10.22.15,9,active,high
+USR139,Girish Madhavan,IT,Database Admin,DEV042,10.10.22.20,8,active,critical
+USR140,Pallavi Borah,HR,People Operations,DEV043,10.10.22.25,10,active,low
+USR141,Vineet Thapar,Engineering,Security Engineer,DEV045,10.10.22.30,9,active,high
+USR142,Archana Prasad,Management,VP Engineering,DEV046,10.10.22.35,9,active,critical
+USR143,Rakesh Singhal,Sales,Sales Associate,DEV047,10.10.22.40,9,active,low
+USR144,Meenakshi Rangan,Security,SOC Analyst,DEV048,10.10.22.45,8,active,high
+USR145,Hemant Rastogi,IT,SysAdmin,DEV049,10.10.22.50,8,active,high
+USR146,Nivedita Bose,Finance,Auditor,DEV050,10.10.22.55,9,active,high

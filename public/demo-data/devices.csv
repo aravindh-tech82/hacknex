@@ -1,0 +1,52 @@
+device_id,device_name,device_type,operating_system,owner_user_id,known_device,device_status
+DEV001,Laptop-001,laptop,Windows 11 Enterprise,USR101,true,active
+DEV099,Laptop-099,laptop,Windows 11 Enterprise,USR101,false,unrecognized
+DEV002,Laptop-002,laptop,macOS Sequoia,USR001,true,active
+DEV003,Laptop-003,laptop,Windows 11 Enterprise,USR102,true,active
+DEV004,Laptop-004,laptop,macOS Sequoia,USR103,true,active
+DEV005,Workstation-005,desktop,Ubuntu 24.04 LTS,USR104,true,active
+DEV020,Workstation-020,desktop,Windows 11 Enterprise,USR205,true,active
+DEV031,Laptop-031,laptop,macOS Sequoia,USR310,true,active
+DEV088,Laptop-088,laptop,Linux Kali,USR310,false,unrecognized
+DEV006,Laptop-006,laptop,Windows 11 Enterprise,USR105,true,active
+DEV007,Workstation-007,desktop,Windows 11 Enterprise,USR106,true,active
+DEV008,Laptop-008,laptop,macOS Sequoia,USR107,true,active
+DEV009,Workstation-009,desktop,Ubuntu 24.04 LTS,USR108,true,active
+DEV010,Laptop-010,laptop,Windows 11 Enterprise,USR109,true,active
+DEV011,Laptop-011,laptop,Windows 11 Enterprise,USR110,true,active
+DEV012,Laptop-012,laptop,Windows 11 Enterprise,USR111,true,active
+DEV013,Workstation-013,desktop,Ubuntu 24.04 LTS,USR112,true,active
+DEV014,Laptop-014,laptop,macOS Sequoia,USR113,true,active
+DEV015,Laptop-015,laptop,Windows 11 Enterprise,USR114,true,active
+DEV016,Workstation-016,desktop,Windows 11 Enterprise,USR115,true,active
+DEV017,Laptop-017,laptop,macOS Sequoia,USR116,true,active
+DEV018,Laptop-018,laptop,Windows 11 Enterprise,USR117,true,active
+DEV019,Workstation-019,desktop,Ubuntu 24.04 LTS,USR118,true,active
+DEV021,Laptop-021,laptop,Windows 11 Enterprise,USR119,true,active
+DEV022,Laptop-022,laptop,Windows 11 Enterprise,USR120,true,active
+DEV023,Laptop-023,laptop,Windows 11 Enterprise,USR121,true,active
+DEV024,Laptop-024,laptop,Windows 11 Enterprise,USR122,true,active
+DEV025,Workstation-025,desktop,Ubuntu 24.04 LTS,USR123,true,active
+DEV026,Laptop-026,laptop,Windows 11 Enterprise,USR124,true,active
+DEV027,Laptop-027,laptop,Windows 11 Enterprise,USR125,true,active
+DEV028,Workstation-028,desktop,Ubuntu 24.04 LTS,USR126,true,active
+DEV029,Laptop-029,laptop,macOS Sequoia,USR127,true,active
+DEV030,Laptop-030,laptop,Windows 11 Enterprise,USR128,true,active
+DEV032,Workstation-032,desktop,Ubuntu 24.04 LTS,USR129,true,active
+DEV033,Laptop-033,laptop,Windows 11 Enterprise,USR130,true,active
+DEV034,Laptop-034,laptop,Windows 11 Enterprise,USR131,true,active
+DEV035,Laptop-035,laptop,Windows 11 Enterprise,USR132,true,active
+DEV036,Workstation-036,desktop,Ubuntu 24.04 LTS,USR133,true,active
+DEV037,Workstation-037,desktop,Windows 11 Enterprise,USR134,true,active
+DEV038,Laptop-038,laptop,macOS Sequoia,USR135,true,active
+DEV039,Workstation-039,desktop,Ubuntu 24.04 LTS,USR136,true,active
+DEV040,Laptop-040,laptop,Windows 11 Enterprise,USR137,true,active
+DEV041,Laptop-041,laptop,Windows 11 Enterprise,USR138,true,active
+DEV042,Workstation-042,desktop,Ubuntu 24.04 LTS,USR139,true,active
+DEV043,Laptop-043,laptop,Windows 11 Enterprise,USR140,true,active
+DEV045,Workstation-045,desktop,Ubuntu 24.04 LTS,USR141,true,active
+DEV046,Laptop-046,laptop,macOS Sequoia,USR142,true,active
+DEV047,Laptop-047,laptop,Windows 11 Enterprise,USR143,true,active
+DEV048,Workstation-048,desktop,Windows 11 Enterprise,USR144,true,active
+DEV049,Workstation-049,desktop,Ubuntu 24.04 LTS,USR145,true,active
+DEV050,Laptop-050,laptop,Windows 11 Enterprise,USR146,true,active

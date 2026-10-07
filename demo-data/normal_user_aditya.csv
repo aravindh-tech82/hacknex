@@ -1,0 +1,7 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E0101,2026-10-07 09:30:10,LOGIN,USR002,DEV007,10.10.20.15,Okta SSO,,,low,"Developer login from primary corporate laptop DEV007"
+E0102,2026-10-07 09:31:00,MFA_SUCCESS,USR002,DEV007,10.10.20.15,Okta SSO,,,low,"FIDO2 hardware token verification confirmed"
+E0103,2026-10-07 10:00:20,API_ACCESS,USR002,DEV007,10.10.20.15,GitHub Enterprise,,,low,"Git clone and pull of internal frontend repository"
+E0104,2026-10-07 11:45:00,SERVER_ACCESS,USR002,DEV007,10.10.20.15,Staging K8s,SRV002,,low,"Standard kubectl logs command on dev staging cluster"
+E0105,2026-10-07 14:20:00,FILE_ACCESS,USR002,DEV007,10.10.20.15,Jira Software,,,low,"Updated sprint story acceptance criteria"
+E0106,2026-10-07 18:00:00,LOGOUT,USR002,DEV007,10.10.20.15,Okta SSO,,,low,"Graceful user session sign-out"

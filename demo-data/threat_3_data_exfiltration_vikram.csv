@@ -1,0 +1,8 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E3001,2026-10-07 23:15:00,FAILED_LOGIN,USR310,DEV088,91.22.18.4,VPN Gateway,,,high,"Multiple failed logins from new external IP 91.22.18.4"
+E3002,2026-10-07 23:16:10,FAILED_LOGIN,USR310,DEV088,91.22.18.4,VPN Gateway,,,high,"Authentication failure on unrecognized device DEV088"
+E3003,2026-10-07 23:18:20,LOGIN_SUCCESS,USR310,DEV088,91.22.18.4,VPN Gateway,,,medium,"Late night login from unrecognized device DEV088"
+E3004,2026-10-07 23:22:10,SERVER_ACCESS,USR310,DEV088,91.22.18.4,SSH Bastion,SRV004,,high,"Access granted to File-Repository-04 SRV004"
+E3005,2026-10-07 23:26:40,FILE_ACCESS,USR310,DEV088,91.22.18.4,DLP Sentinel,SRV004,,high,"Mass file read: 1400 confidential engineering archives accessed"
+E3006,2026-10-07 23:31:10,COMMAND_EXECUTION,USR310,DEV088,91.22.18.4,CrowdStrike EDR,SRV004,,critical,"Staging command executed: tar -czf exfil.tar.gz /var/confidential/"
+E3007,2026-10-07 23:35:00,NETWORK_CONNECTION,USR310,DEV088,91.22.18.4,Palo Alto Firewall,SRV004,91.22.18.4,critical,"Outbound TCP connection sending exfil payload stream to 91.22.18.4"

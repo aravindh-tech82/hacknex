@@ -1,0 +1,6 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E9001,2026-10-07 18:20:00,LOGIN,USR109,DEV014,103.208.220.10,VPN Gateway,,,medium,"Login from remote residential ISP proxy 103.208.220.10"
+E9002,2026-10-07 18:24:15,SERVER_ACCESS,USR109,DEV014,103.208.220.10,SSH Bastion,SRV016,,high,"SSH session established to GPU-Cluster-Node-16 SRV016"
+E9003,2026-10-07 18:28:40,PROCESS_EXECUTION,USR109,DEV014,103.208.220.10,CrowdStrike EDR,SRV016,,critical,"Unauthorized binary execution: ./xmrig --donate-level 1 -o pool.supportxmr.com:3333"
+E9004,2026-10-07 18:32:00,COMMAND_EXECUTION,USR109,DEV014,103.208.220.10,CrowdStrike EDR,SRV016,,high,"Process masquerading: xmrig renamed to systemd-journal-daemon to evade detection"
+E9005,2026-10-07 18:40:00,NETWORK_CONNECTION,USR109,DEV014,103.208.220.10,Palo Alto Firewall,SRV016,103.208.220.10,critical,"Continuous stratum mining protocol telemetry on TCP port 3333"

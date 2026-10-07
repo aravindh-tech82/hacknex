@@ -1,0 +1,6 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E7001,2026-10-07 14:00:10,LOGIN,USR102,DEV003,10.10.20.18,Okta SSO,,,low,"Scheduled finance audit login from primary device DEV003"
+E7002,2026-10-07 14:01:00,MFA_SUCCESS,USR102,DEV003,10.10.20.18,Okta SSO,,,low,"Hardware token MFA authentication verified"
+E7003,2026-10-07 14:02:15,SERVER_ACCESS,USR102,DEV003,10.10.20.18,SSH Bastion,SRV012,,medium,"Scheduled audit access to Finance-Database SRV012 under change ticket CHG-8821"
+E7004,2026-10-07 14:05:00,FILE_ACCESS,USR102,DEV003,10.10.20.18,Finance DB,SRV012,,low,"Read operation on quarterly audit ledger table"
+E7005,2026-10-07 14:15:00,LOGOUT,USR102,DEV003,10.10.20.18,Okta SSO,,,low,"Normal audit session closed successfully with approved change ticket"

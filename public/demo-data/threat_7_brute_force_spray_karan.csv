@@ -1,0 +1,8 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E7001,2026-10-07 03:10:00,FAILED_LOGIN,USR107,DEV011,185.220.101.5,Okta SSO,,,high,"Password spraying attempt from known Tor Exit Node 185.220.101.5"
+E7002,2026-10-07 03:10:08,FAILED_LOGIN,USR107,DEV011,185.220.101.5,Okta SSO,,,high,"Repeated authentication failure with dictionary password hash"
+E7003,2026-10-07 03:10:15,FAILED_LOGIN,USR107,DEV011,185.220.101.5,Okta SSO,,,high,"Repeated authentication failure from Tor network node"
+E7004,2026-10-07 03:10:22,FAILED_LOGIN,USR107,DEV011,185.220.101.5,Okta SSO,,,high,"Brute-force spray burst detected across enterprise endpoint"
+E7005,2026-10-07 03:12:00,LOGIN_SUCCESS,USR107,DEV011,185.220.101.5,Okta SSO,,,critical,"Compromised login achieved via password spray from Tor IP 185.220.101.5"
+E7006,2026-10-07 03:15:20,SERVER_ACCESS,USR107,DEV011,185.220.101.5,SSH Bastion,SRV005,,high,"Unauthorized jump host login to Internal-App-05 SRV005"
+E7007,2026-10-07 03:20:10,PROCESS_EXECUTION,USR107,DEV011,185.220.101.5,CrowdStrike EDR,SRV005,,critical,"Discovery script executed: find / -perm -4000 -type f 2>/dev/null"

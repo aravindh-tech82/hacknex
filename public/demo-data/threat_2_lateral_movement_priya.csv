@@ -1,0 +1,8 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E2001,2026-10-07 21:05:10,LOGIN,USR205,DEV020,172.16.4.25,Okta SSO,,,low,"User login from primary workstation DEV020"
+E2002,2026-10-07 21:10:20,SERVER_ACCESS,USR205,DEV020,172.16.4.25,Windows RDP,SRV003,,medium,"RDP connection established to Auth-Server-03 SRV003"
+E2003,2026-10-07 21:15:30,PROCESS_EXECUTION,USR205,DEV020,172.16.4.25,CrowdStrike EDR,SRV003,,high,"WMI query invoked to enumerate domain controller admin credentials"
+E2004,2026-10-07 21:20:40,PRIVILEGE_ESCALATION,USR205,DEV020,172.16.4.25,Active Directory,SRV003,,critical,"Domain Admin privileges granted via Kerberoasting ticket reuse"
+E2005,2026-10-07 21:28:00,NETWORK_CONNECTION,USR205,DEV020,172.16.4.25,Palo Alto Firewall,SRV003,10.0.8.50,high,"Lateral SMB connection initiated from SRV003 to SRV008"
+E2006,2026-10-07 21:35:10,SERVER_ACCESS,USR205,DEV020,172.16.4.25,SSH Bastion,SRV014,,critical,"Pivoted lateral connection established to Core-Vault-14 SRV014"
+E2007,2026-10-07 21:40:20,FILE_ACCESS,USR205,DEV020,172.16.4.25,Admin Console,SRV014,,critical,"Sensitive credential vault dumping executed on SRV014"

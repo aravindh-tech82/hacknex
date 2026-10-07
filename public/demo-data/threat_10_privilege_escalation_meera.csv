@@ -1,0 +1,7 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E10001,2026-10-07 17:05:00,LOGIN,USR110,DEV015,10.10.20.60,Okta SSO,,,low,"Routine DBA login from desktop DEV015"
+E10002,2026-10-07 17:10:30,SERVER_ACCESS,USR110,DEV015,10.10.20.60,SSH Bastion,SRV013,,high,"Privileged session connected to Core-Directory-13 SRV013"
+E10003,2026-10-07 17:15:00,PROCESS_EXECUTION,USR100,DEV015,10.10.20.60,CrowdStrike EDR,SRV013,,critical,"Exploitation of CVE-2024-PrivEsc via local sudoers vulnerability"
+E10004,2026-10-07 17:18:45,PRIVILEGE_ESCALATION,USR110,DEV015,10.10.20.60,Active Directory,SRV013,,critical,"Rogue Enterprise Admin group membership granted without change approval"
+E10005,2026-10-07 17:22:10,COMMAND_EXECUTION,USR110,DEV015,10.10.20.60,CrowdStrike EDR,SRV013,,critical,"ntdsutil snapshot create command executed to extract corporate password hashes"
+E10006,2026-10-07 17:28:00,FILE_ACCESS,USR110,DEV015,10.10.20.60,Directory Vault,SRV013,,critical,"ntds.dit database archive compressed into encrypted volume"

@@ -1,0 +1,7 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E6001,2026-10-07 20:05:12,API_ACCESS,USR106,DEV010,194.26.29.112,AWS IAM Console,,,high,"Anomalous AWS API call GetCallerIdentity using long-term access key from foreign IP 194.26.29.112"
+E6002,2026-10-07 20:07:45,COMMAND_EXECUTION,USR106,DEV010,194.26.29.112,CloudTrail,SRV010,,critical,"Automated reconnaissance: aws s3 ls and aws ec2 describe-instances invoked via CLI"
+E6003,2026-10-07 20:10:30,PRIVILEGE_ESCALATION,USR106,DEV010,194.26.29.112,AWS IAM,SRV010,,critical,"Unauthorized IAM policy modification: AdministratorAccess attached to rogue user"
+E6004,2026-10-07 20:14:15,SERVER_ACCESS,USR106,DEV010,194.26.29.112,AWS Systems Manager,SRV010,,high,"SSM session initiated to production Kubernetes cluster master node"
+E6005,2026-10-07 20:18:00,FILE_ACCESS,USR106,DEV010,194.26.29.112,AWS S3,SRV010,,critical,"S3 bucket production-customer-secrets dumped (sync command executed)"
+E6006,2026-10-07 20:22:40,NETWORK_CONNECTION,USR106,DEV010,194.26.29.112,Palo Alto Firewall,SRV010,194.26.29.112,critical,"Outbound HTTPS multi-part archive upload stream directed to external server"

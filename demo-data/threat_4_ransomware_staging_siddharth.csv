@@ -1,0 +1,7 @@
+event_id,timestamp,event_type,user_id,device_id,ip_address,application,server_id,destination_ip,severity,description
+E4001,2026-10-07 19:10:00,EMAIL_LOGIN,USR104,DEV005,10.10.20.25,Email Exchange,,,low,"Standard email client authentication"
+E4002,2026-10-07 19:12:30,NETWORK_CONNECTION,USR104,DEV005,10.10.20.25,Palo Alto Firewall,,198.51.100.44,high,"Outbound HTTP request to suspicious external hosting domain 198.51.100.44"
+E4003,2026-10-07 19:14:00,PROCESS_EXECUTION,USR104,DEV005,10.10.20.25,CrowdStrike EDR,,198.51.100.44,critical,"Suspicious child process spawned: wscript.exe malicious_invoice.vbs"
+E4004,2026-10-07 19:18:20,COMMAND_EXECUTION,USR104,DEV005,10.10.20.25,CrowdStrike EDR,SRV015,,critical,"Ransomware prep command executed: vssadmin delete shadows /all /quiet"
+E4005,2026-10-07 19:22:00,SERVER_ACCESS,USR104,DEV005,10.10.20.25,SSH Bastion,SRV015,,critical,"Rapid batch connection to Backup-Storage-15 SRV015"
+E4006,2026-10-07 19:25:00,FILE_ACCESS,USR104,DEV005,10.10.20.25,DLP Sentinel,SRV015,,critical,"High frequency file rename / encryption detected (.locked extension)"
