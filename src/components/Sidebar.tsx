@@ -10,9 +10,10 @@ import {
   Zap,
   CheckCircle2,
   FlaskConical,
+  Radio,
 } from 'lucide-react';
 
-export type NavTab = 'command-center' | 'events' | 'investigations' | 'attack-graph' | 'test-lab' | 'import-csv';
+export type NavTab = 'command-center' | 'live-monitor' | 'events' | 'investigations' | 'attack-graph' | 'test-lab' | 'import-csv';
 
 interface SidebarProps {
   activeTab: NavTab;
@@ -33,6 +34,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   const navItems = [
     { id: 'command-center' as NavTab, label: 'Command Center', icon: LayoutDashboard },
+    { id: 'live-monitor' as NavTab, label: 'Live Monitor', icon: Radio },
     { id: 'events' as NavTab, label: 'Security Events', icon: Search },
     {
       id: 'investigations' as NavTab,

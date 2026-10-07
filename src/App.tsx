@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { Sidebar } from './components/Sidebar';
 import type { NavTab } from './components/Sidebar';
 import { CommandCenter } from './components/CommandCenter';
+import { LiveMonitor } from './components/LiveMonitor';
 import { CsvImport } from './components/CsvImport';
 import { Investigation } from './components/Investigation';
 import { AttackGraphView } from './components/AttackGraphView';
@@ -53,6 +54,13 @@ export function App() {
             incident={primaryIncident}
             allIncidents={allIncidents}
             onInvestigate={() => setActiveTab('investigations')}
+          />
+        )}
+
+        {activeTab === 'live-monitor' && (
+          <LiveMonitor
+            events={events}
+            onInvestigateIncident={() => setActiveTab('investigations')}
           />
         )}
 
